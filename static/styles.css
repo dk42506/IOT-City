@@ -99,9 +99,10 @@ header {
     color: white;
     text-align: center;
     font-size: 50px;
-    background-color: grey;
+    background: grey;
     width: 170px;
-    height: 700px;
+    height: 0px;
+    border-radius: 20px;
 }
 
 #lights-content{
@@ -112,9 +113,10 @@ header {
     color: white;
     text-align: center;
     font-size: 50px;
-    background-color: grey;
+    background: grey;
     width: 170px;
     height: 700px;
+    border-radius: 20px;
 }
 
 #buttons {

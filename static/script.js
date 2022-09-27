@@ -1,10 +1,23 @@
-function meters(){
-    var check = document.getElementById('switch');
+function waterMeter(){
+    var waterSwitch = document.getElementById('water-switch');
+    var waterMeter = document.getElementById('water-meter')
 
-    if (check.checked){
-        alert("You have checked the box")
+    if (waterSwitch.checked){
+        waterMeter.style.height = "700px";       
     }
-    else {
-        alert("Box not checked")
+    else if (waterSwitch.checked == false) {
+        waterMeter.style.height = "0px";   
+    }
+}
+
+function lightMeter(){
+    var lightSwitch = document.getElementById('light-switch');
+    var lightMeter = document.getElementById('light-meter')
+
+    if (lightSwitch.checked){
+        lightMeter.style.background = "yellow";       
+    }
+    else if (lightSwitch.checked == false) {
+        lightMeter.style.background = "grey";   
     }
 }
