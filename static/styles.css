@@ -101,8 +101,20 @@ header {
     font-size: 50px;
     background: grey;
     width: 170px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+#inner-water-meter {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background: blue;
+    width: 170px;
     height: 0px;
     border-radius: 20px;
+    position: absolute;
+    bottom: 0px;
 }
 
 #lights-content{

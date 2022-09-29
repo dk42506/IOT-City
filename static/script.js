@@ -1,6 +1,6 @@
 function waterMeter(){
     var waterSwitch = document.getElementById('water-switch');
-    var waterMeter = document.getElementById('water-meter')
+    var waterMeter = document.getElementById('inner-water-meter')
 
     if (waterSwitch.checked){
         waterMeter.style.height = "700px";       
