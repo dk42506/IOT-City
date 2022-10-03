@@ -51,12 +51,29 @@ header {
 
 #board-text-content {
     text-align: center;
-    font-size: 100px;
-    color: white;
+    font-size: 50px;
     margin-top: 11%;
-    background-color: blue;
+    /*background-color: blue;*/
     height: 250px;
     width: 470px;
+}
+
+#input-text{
+    color: white;
+}
+
+#textbox{
+    height: 50px;
+    width: 400px;
+    font-size: 30px;
+    color: black;
+}
+
+#billboard-submit{
+    color: black;
+    height: 40px;
+    width: 120px;
+    font-size: 30px;
 }
 
 #old-board-text {
@@ -113,8 +130,8 @@ header {
     width: 170px;
     height: 0px;
     border-radius: 20px;
-    position: absolute;
-    bottom: 0px;
+    /*position: absolute;
+    bottom: 0px;*/
 }
 
 #lights-content{

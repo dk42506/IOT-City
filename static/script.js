@@ -3,7 +3,7 @@ function waterMeter(){
     var waterMeter = document.getElementById('inner-water-meter')
 
     if (waterSwitch.checked){
-        waterMeter.style.height = "700px";       
+        waterMeter.style.height = "400px";       
     }
     else if (waterSwitch.checked == false) {
         waterMeter.style.height = "0px";   
