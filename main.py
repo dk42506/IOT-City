@@ -13,9 +13,9 @@ def homePost():
     processed_text = text.upper()
     ssh = pxssh.pxssh()
     #("host", "user", "password")
-    ssh.login("192.168.1.164", "dk42506", "DylanK6205")
+    ssh.login("10.4.2.5", "icsserver", "password")
     # get rid of this command and add ("python3 lcdscreen.py " + str(processed_text)
-    ssh.sendline("touch " + str(processed_text) + ".txt")
+    ssh.sendline("python3 lcdscreen.py " + str(processed_text))
     return render_template("index.html", variable=processed_text)
 
 if __name__ == "__main__":
