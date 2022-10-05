@@ -15,7 +15,7 @@ def homePost():
     #("host", "user", "password")
     ssh.login("10.4.2.5", "icsserver", "password")
     # get rid of this command and add ("python3 lcdscreen.py " + str(processed_text)
-    ssh.sendline("python3 lcdscreen.py " + str(processed_text))
+    ssh.sendline("touch " + str(processed_text) + ".txt")
     return render_template("index.html", variable=processed_text)
 
 if __name__ == "__main__":
