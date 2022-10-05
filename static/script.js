@@ -1,12 +1,15 @@
 function waterMeter(){
     var waterSwitch = document.getElementById('water-switch');
-    var waterMeter = document.getElementById('inner-water-meter')
+    var waterMeter1 = document.getElementById('inner-water-meter')
+    var waterMeter2 = document.getElementById('inner-water-meter2')
 
     if (waterSwitch.checked){
-        waterMeter.style.height = "400px";       
+        waterMeter1.style.height = "400px";   
+        waterMeter2.style.height = "300px"  
     }
     else if (waterSwitch.checked == false) {
-        waterMeter.style.height = "0px";   
+        waterMeter1.style.height = "0px";
+        waterMeter2.style.height = "0px";   
     }
 }
 
