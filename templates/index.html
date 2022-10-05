@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href={{ url_for('static', filename='styles.css')}}>
+    <script src="{{url_for('static', filename='script.js')}}"></script>
     <title>IOT - CITY</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
         <section id="three-sections">
             <div id="left-section">
                 <div id="old-board-text">
-                    old text
+                    <p>{{ variable }}</p>
                 </div>
                 <div id="board-text-content">
                     <form action="#" method="post">
